@@ -34,7 +34,7 @@ const Cursor = () => {
           targetOpacity={0.5}
           targetScale={2}
         />
-      )}
+      )}     
     </>
   );
 };

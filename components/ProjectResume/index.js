@@ -25,4 +25,16 @@ const ProjectResume = ({ dates, type, position, bullets }) => {
   );
 };
 
-export default ProjectResume;
+const PreviewFile = () => {
+  return (
+    <iframe
+      align="left"
+      margin="auto"
+      src="./NCH_Resume_old.pdf"
+      width="1200"
+      height="1200"
+    />
+  )
+}
+
+export default PreviewFile;
