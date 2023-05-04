@@ -97,6 +97,13 @@ export default function Home() {
           <h1 className="text-2xl text-bold">Development Work.</h1>
 
           <div className="mt-5 laptop:mt-10 grid grid-cols-1 tablet:grid-cols-2 gap-4">
+              <WorkCard
+                key={2}
+                img={"https://www.phillymag.com/wp-content/uploads/sites/3/2020/03/wawa-sandwiches-ranked.jpg"}
+                name={"Wawa Calculator"}
+                description={"Ever wonder how much you spend on Wawa?"}
+                onClick={() => router.push("/wawa")}
+              />            
             {data.projects.map((project) => (
               <WorkCard
                 key={project.id}
